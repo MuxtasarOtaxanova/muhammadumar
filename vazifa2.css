@@ -1,0 +1,53 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background-color: rgb(226, 93, 17);
+}
+.box{
+     margin: 30px;
+     padding: 30px;
+     border: 1px solid red;
+     width: 300px;
+     background-color: white;
+     border-radius: 10px;
+     text-align: center;
+     position: relative;
+}
+.box input{
+     margin-left: 15px;
+     margin-right: 15px;
+     text-indent: 40px;
+     margin-bottom: 10px;
+     margin-top: 10px;
+     padding: 5px 20px;
+     
+}
+.box button{
+     margin-left: 15px;
+     margin-right: 15px;
+ margin-top: 10px;
+ padding: 5px 86px;
+ margin-bottom: 10px;
+ border: none;
+ background-color: blue;
+ color: white;
+ border-radius: 5px;
+}
+.box p{
+     color: red;
+}
+.rasm{
+     position: absolute;
+     
+     width: 50px;
+     height: 50px;
+     border-radius:50% ;
+     font-size: 45px;
+     background-color: rgb(176, 176, 6);
+     color: white;
+     margin-top: -250px;
+     margin-left: 90px;
+}

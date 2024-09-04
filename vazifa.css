@@ -1,0 +1,94 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background-color: brown;
+}
+.box{
+ border: 1px solid white;
+ width: 300px;
+ height: 300px;
+ border-radius:10px 0px 0px 10px ;
+ margin-top: 30px;
+ margin-left: 30px;
+ background-color: white;
+ text-align: center;
+}
+.box h2{
+     color: rgb(255, 0, 238);
+     margin-top: 40px;
+     margin-bottom: 15px;
+     position: relative;
+     
+}
+.box i{
+     position: absolute;
+     margin-left: 5px;
+     font-size: 15px;
+     margin-top: 6px;
+}
+.box input{
+     text-indent: 20px;
+     padding: 5px;
+     border-radius: 10px;
+     margin-bottom: 15px;
+     border: 2px solid rgb(255, 0, 238);
+}
+.box button{
+     padding: 5px 15px;
+     border: none;
+     background-color: rgb(255, 0, 238);
+     color: white;
+     border-radius: 15px;
+}
+.box p{
+     font-size: 13px;
+     margin-top: 5px;
+}
+.icon1{
+     display: flex;
+     gap: 20px;
+     justify-content: center;
+     
+}
+.box2{
+     width: 300px;
+     height: 300px;
+      margin-top: 30px;
+      background-color:rgb(132, 0, 123) ;
+     color: white   ;
+     padding-top: 30px;
+     border-radius: 0px 10px 10px 0px;
+}
+.div{
+     display: flex;
+     text-align: center;
+     
+     
+}
+.box2 p{
+     width: 250px;
+     font-size: 15px;
+     margin-top: 10px;
+     text-align: center;
+     margin-left: 25px;
+}
+.box2 button{
+     padding: 10px 25px;
+     margin-top: 10px;
+     border: none;
+     background-color: rgb(255, 0, 238);
+     color: white;
+     border-radius: 15px;
+     margin-left: 80px;
+     margin-right:80px;
+}
+.box2 img{
+     width: 100px;
+     height: 100px;
+     margin-top: 10px;
+
+}
+
